@@ -2,7 +2,7 @@
 
 A machine learning model that predicts residential sale prices in Detroit, MI, deployed as a containerized REST API on **Google Cloud Platform (Cloud Run)**.
 
-Built for: *Machine Learning Model Deployment Assignment — Spring 2026*
+Built for: *Machine Learning Model Deployment Assignment - Spring 2026*
 
 ---
 
@@ -141,5 +141,5 @@ curl -X POST https://YOUR-SERVICE-URL/predict \
 
 ## Restrictions Honored
 
-- No GUI tool (Streamlit/Gradio) is used for the core API — FastAPI serves a direct REST API only.
+- No GUI tool (Streamlit/Gradio) is used for the core API - FastAPI serves a direct REST API only.
 - The model is trained once in the notebook and saved with `joblib`; the API loads it once at startup (`joblib.load` at module import time) and **never calls `.fit()`** at request time.
