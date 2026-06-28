@@ -1,0 +1,47 @@
+{
+  "numeric_features": [
+    "sqft",
+    "bedrooms",
+    "bathrooms",
+    "lot_size_sqft",
+    "year_built",
+    "stories",
+    "garage_spaces",
+    "has_basement",
+    "has_porch",
+    "renovated_last_10yrs",
+    "fireplace",
+    "condition_score",
+    "distance_to_downtown_km",
+    "crime_index",
+    "school_rating",
+    "walk_score",
+    "property_tax_annual",
+    "vacant_lot_nearby"
+  ],
+  "categorical_features": [
+    "neighborhood"
+  ],
+  "neighborhoods": [
+    "Bagley",
+    "Boston-Edison",
+    "Brightmoor",
+    "Chadsey-Condon",
+    "Cody Rouge",
+    "Corktown",
+    "East English Village",
+    "Grandmont-Rosedale",
+    "Greenfield",
+    "Indian Village",
+    "Jefferson-Chalmers",
+    "Lafayette Park",
+    "Midtown",
+    "Morningside",
+    "Palmer Woods",
+    "Russell Woods",
+    "Sherwood Forest",
+    "University District",
+    "Warrendale",
+    "West Village"
+  ]
+}
